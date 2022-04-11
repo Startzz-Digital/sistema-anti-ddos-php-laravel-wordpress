@@ -99,13 +99,16 @@ if(isset($_SESSION['standby'])){
 		<div class="loading__msg">
 			<center>
 				<b style="font-size: 22px;">
-					<a href="https://github.com/Sanix-Darker/AntiDDOS-system" target="_blank" style="color: black;">ANTIDDOS</a> is checking....
+					<a href="https://github.com/startzzbrasil/sistema-anti-ddos-php-laravel-wordpress" target="_blank" style="color: black;">ANTIDDOS</a> verificando....
 				</b>
+				<br>
+				<p> Seu IP:
+		       <?
+                        echo $_SERVER["REMOTE_ADDR"];
+                        ?> </p>
 				<br><br>
-			Hi, don't worry, this is a simple security verfication, 
-			you will see this only one time;<br> your webpage will show up soon!
-			 <br> This security wall was build by 
-			 <a href="https://github.com/sanix-darker" target="_blank">Sanix darker</a> </center></div>
+			Olá, não se preocupe, esta é uma verificação de segurança simples, você verá isso apenas uma vez;<br> sua página da web será exibida em breve! <br> Este muro de segurança foi construído por 
+			 <a href="https://github.com/startzzbrasil/sistema-anti-ddos-php-laravel-wordpress" target="_blank">Startzz</a> </center></div>
 	</div>
 
 <?php exit();
