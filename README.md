@@ -35,7 +35,7 @@ Wordpress
 Na pasta do seu tema em WP-CONTENT/THEMES/SEU-TEMA
 Na Header coloque include ("anti_ddos/start.php"); //siga o passo para admin etc...
 certifique-se de colocar as pastas anti_ddos , css, img NA PASTA do Seu tema
-Duplique a pata anti_ddos para a raiz do WORDPRESS
+Duplique a pasta anti_ddos para a raiz do WORDPRESS
 <!DOCTYPE html>
 <html>
 <head>
