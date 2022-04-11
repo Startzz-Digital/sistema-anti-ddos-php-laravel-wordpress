@@ -1,27 +1,46 @@
 <img src="img/icone.png" >
-<h1>AntiDDOS-system</h1>
-A simple way to protect your web application from DDOS attack(FREELY) in *1 line*.
+<h1>Sistema Anti DDos</h1>
+Uma maneira simples de proteger seu aplicativo da web contra ataques DDOS (GRATUITAMENTE) em *1 linha*.
 
-## How it work?
+Use esse pois temos motivos suficentes para não confiar na CLOUDFLARE.
+
+## Como isso funciona?
 <img src="img/icon.png" >
-At each connection, the system temporarily saves the ip address of the client and monitors its connection frequency, if this connection frequency is abnormal, then the system considers it as a black ip address and sends a verification request in the form of a verification. Captcha integrated into the system, if he passes this check, then it is a human and not a robot!
+A cada conexão, o sistema salva temporariamente o endereço ip do cliente e monitora sua frequência de conexão, se esta frequência de conexão for anormal, então o sistema o considera como um endereço ip preto e envia uma solicitação de verificação na forma de verificação. Captcha integrado ao sistema, se ele passar nessa verificação, então é um humano e não um robô!
 
-### Testing...
+### Testando...
 <img src="img/Antiddos.gif">
 
-**"This project has been tested by severals ddos software with a score of 77%."**
-## How to use it?
+**"Este projeto foi testado por vários softwares ddos com uma pontuação de 77%."**
+## Como usá-lo?
 
-### Basic USAGE
+### USO básico
 ```php
 <?php
-	include ("anti_ddos/start.php"); //write this at the top of your PHP application and all is done!!!
+	include ("anti_ddos/start.php"); //escreva isso no topo do seu aplicativo PHP e tudo está feito!!!
 ?>
+
+Laravel
+
+Na Blade Principal (master, mestre, index etc...)
+@include('anti_ddos/start') // siga o passo para cada master existente user, admin, frontend etc...
+
+certifique-se de colocar as pastas anti_ddos , css, img NA PASTA resources/views
+duplique a pasta anti_ddos na pasta PUBLIC
+
+Simples assim.
+
+Wordpress
+
+Na pasta do seu tema em WP-CONTENTENT/THEMES/SEU-TEMA
+Na Header coloque include ("anti_ddos/start.php"); //siga o passo para admin etc...
+certifique-se de colocar as pastas anti_ddos , css, img NA PASTA do Seu tema
+Duplique a pata anti_ddos para a raiz do WORDPRESS
 <!DOCTYPE html>
 <html>
 <head>
 	<title>
-		Example Web page protected!
+		Exemplo de página da Web protegida!
 	</title>
 </head>
 	<body>
@@ -56,12 +75,12 @@ At each connection, the system temporarily saves the ip address of the client an
 
 ## Author
 
-- [Sanix-darker](https://github.com/sanix-darker)
+- [Startzz](https://github.com/startzzbrasil)
 
-## LICENSE
+## LICENÇA
 
-[MIT License](https://github.com/Sanix-Darker/AntiDDOS-system/blob/master/LICENSE)
+[Liccença MIT](https://github.com/startzzbrasil/sistema-anti-ddos-php-laravel-wordpress/blob/master/LICENSE)
 
-PS: Send me some feedback to make this project more powerfull than ever! ;-)
+PS: Envie-me alguns comentários para tornar este projeto mais poderoso do que nunca! ;-)
 
 
