@@ -3,6 +3,8 @@
 Uma maneira simples de proteger seu aplicativo da web contra ataques DDOS (GRATUITAMENTE) em *1 linha*.
 
 Use esse pois temos motivos suficentes para não confiar na CLOUDFLARE.
+Recomendamos que verifique o código manualmente e defina as pastas em chmod 755 e arquivos em 644 
+pois também temos motivos suficientes para não confiar no GITHUB
 
 ## Como isso funciona?
 <img src="img/icon.png" >
@@ -79,7 +81,7 @@ Duplique a pasta anti_ddos para a raiz do WORDPRESS
 
 ## LICENÇA
 
-[Liccença MIT](https://github.com/startzzbrasil/sistema-anti-ddos-php-laravel-wordpress/blob/master/LICENSE)
+[Licença MIT](https://github.com/startzzbrasil/sistema-anti-ddos-php-laravel-wordpress/blob/master/LICENSE)
 
 PS: Envie-me alguns comentários para tornar este projeto mais poderoso do que nunca! ;-)
 
