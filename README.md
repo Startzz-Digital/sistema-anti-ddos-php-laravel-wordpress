@@ -1,6 +1,7 @@
 <img src="img/icone.png" >
 <h1>Sistema Anti DDos</h1>
 Uma maneira simples de proteger seu aplicativo da web contra ataques DDOS (GRATUITAMENTE) em *1 linha*.
+Bloqueando inclusive acesso via proxy como hideme entre outros
 
 Use esse pois temos motivos suficentes para não confiar na CLOUDFLARE.
 Recomendamos que verifique o código manualmente e defina as pastas em chmod 755 e arquivos em 644 
