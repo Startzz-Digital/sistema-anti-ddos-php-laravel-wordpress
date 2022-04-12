@@ -26,7 +26,7 @@ A cada conexão, o sistema salva temporariamente o endereço ip do cliente e mon
 Laravel
 
 Na Blade Principal (master, mestre, index etc...)
-@include('anti_ddos/start') // siga o passo para cada master existente user, admin, frontend etc...
+@include('anti_ddos/start') {{-- siga o passo para cada master existente user, admin, frontend etc... --}}
 
 certifique-se de colocar as pastas anti_ddos , css, img NA PASTA resources/views
 duplique a pasta anti_ddos na pasta PUBLIC
