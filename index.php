@@ -25,11 +25,11 @@
 		<center>
 			<div class="container">
 				<a href="https://github.com/Sanix-Darker">
-					<img src="https://avatars1.githubusercontent.com/u/22576758?s=400&v=4" style="border-radius: 100%;width:200px;"><br>
-					Sanix Darker Github
+					<img src="img/equipeStartzz.png" style="border-radius: 100%;width:200px;"><br>
+					Startzz Digital
 				</a>
-				<h1>Example Webpage</h1>
-				<p>This web Site is protected by AntiDDOS-System PHP.</p>
+				<h1>Exemplo de Página</h1>
+				<p>Este site é protegido pelo sistema AntiDDOS Startzz.</p>
 			</div>
 		</center>
 	</body>
