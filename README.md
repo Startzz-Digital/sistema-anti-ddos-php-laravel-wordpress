@@ -12,7 +12,7 @@ pois também temos motivos suficientes para não confiar no GITHUB
 A cada conexão, o sistema salva temporariamente o endereço ip do cliente e monitora sua frequência de conexão, se esta frequência de conexão for anormal, então o sistema o considera como um endereço ip preto e envia uma solicitação de verificação na forma de verificação. Captcha integrado ao sistema, se ele passar nessa verificação, então é um humano e não um robô!
 
 ### Testando...
-<img src="img/Antiddos.gif">
+<img src="img/antiddos.gif">
 
 **"Este projeto foi testado por vários softwares ddos com uma pontuação de 77%."**
 ## Como usá-lo?
