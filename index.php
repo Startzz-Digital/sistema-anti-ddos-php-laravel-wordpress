@@ -8,7 +8,7 @@
 	//CATCH the exception if something goes wrong.
 	catch (Exception $ex) {
 		echo '<div style="padding:10px;color:white;position:fixed;top:0;left:0;width:100%;background:black;text-align:center;">'.
-			'The <a href="https://github.com/sanix-darker/antiddos-system" target="_blank">"AntiDDOS System"</a> failed to load '.
+			'The <a href="https://github.com/Startzz-Digital/sistema-anti-ddos-php-laravel-wordpress" target="_blank">"AntiDDOS System"</a> failed to load '.
 			'properly on this Web Site, please de-comment the \'catch Exception\' to see what happening!</div>';
 		//Print out the exception message.
 		//echo $ex->getMessage();
@@ -24,7 +24,7 @@
 	<body>
 		<center>
 			<div class="container">
-				<a href="https://github.com/Sanix-Darker">
+				<a href="https://github.com/Startzz-Digital/">
 					<img src="img/equipeStartzz.png" style="border-radius: 100%;width:200px;"><br>
 					Startzz Digital
 				</a>
