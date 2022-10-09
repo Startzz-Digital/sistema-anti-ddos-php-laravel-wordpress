@@ -34,8 +34,8 @@ duplique a pasta anti_ddos na pasta PUBLIC
 Simples assim.
 
 Wordpress
-https://github.com/Startzz-Digital/startzz-ant-ddos-wordpress-plugin
 
+ [wordpress](https://github.com/Startzz-Digital/startzz-anti-ddos-wordpress-plugin "Wordpress Plugin")
 <!DOCTYPE html>
 <html>
 <head>
