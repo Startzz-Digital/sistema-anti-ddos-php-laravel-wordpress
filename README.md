@@ -35,7 +35,7 @@ Simples assim.
 
 Wordpress
 
-[Wordpress Plugin](https://github.com/Startzz-Digital/startzz-anti-ddos-wordpress-plugin)
+[Wordpress Plugin](https://github.com/Startzz-Digital/startzz-anti-ddos-wordpress-plugin).
 <!DOCTYPE html>
 <html>
 <head>
